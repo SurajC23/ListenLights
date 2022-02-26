@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ListenLights</string>
+    <string name="lets_grow_together">Let\'s Grow Together</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="tag_line">2022 salesforce.com, inc, All rights reserved.</string>
+    <string name="pr">PR</string>
+    <string name="grpo">GRPO</string>
+    <string name="bin_to_bin">BIN-TO\n-BIN</string>
+    <string name="DPR">DPR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
