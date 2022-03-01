@@ -62,8 +62,8 @@
         android:id="@+id/flMain"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/mToolbar"
-        android:layout_above="@id/mBottomNav"/>
+        android:layout_above="@id/mBottomNav"
+        android:layout_below="@id/mToolbar" />
 
     <RelativeLayout
         android:id="@+id/mBottomNav"

@@ -14,17 +14,18 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/mTabLayout"
-        android:layout_below="@id/mSeprator"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/mSeprator"
         android:background="@color/lightGrey"
-        app:tabMode="fixed"
         app:tabGravity="fill"
-        app:tabTextColor="@color/white"
         app:tabIndicator="@color/white"
-        app:tabIndicatorHeight="0.5dp"
+        app:tabIndicatorColor="@color/white"
         app:tabIndicatorFullWidth="true"
-        app:tabIndicatorColor="@color/white"/>
+        app:tabIndicatorHeight="0.5dp"
+        app:tabMode="fixed"
+        app:tabTextColor="@color/white"
+        app:tabTextAppearance="@style/tab_text"/>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/vpMain"

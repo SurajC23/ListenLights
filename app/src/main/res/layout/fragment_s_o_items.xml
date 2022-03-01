@@ -1,14 +1,233 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".views.fragments.subFragments.SOItemsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:scrollbars="none">
 
-</FrameLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/tvItemMaster"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Item Master"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:id="@+id/etItemMaster"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tvItemMaster"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Enter item master"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/grey"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/etItemMaster"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="AXJS0001"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/tvColour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Colour"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tvColour"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Select color"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/grey"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/tvMake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Make"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tvMake"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Enter Make"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/grey"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/tvQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Quantity"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:id="@+id/etQuantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tvQuantity"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Enter quantity"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/grey"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/etQuantity"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Meter (Total PR Ordered Qty:20)"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/tvItemRemark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:text="Item Remark"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@+id/tvItemRemark"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/blue_border_rounded_cornwe"
+                    android:fontFamily="@font/poppins_regular"
+                    android:hint="Enter item remark"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="17dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/grey"
+                    android:textCursorDrawable="@drawable/cursor_color"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>
