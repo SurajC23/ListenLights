@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/drawable-v24/dark_grey_border_rounded_cornwe.xml" value="0.2169230769230769" />
         <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/drawable-v24/light_grey_background.xml" value="0.2203125" />
         <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/drawable/blue_border_rounded_cornwe.xml" value="0.17222222222222222" />
         <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/drawable/blue_fill__rounded_color.xml" value="0.2203125" />
@@ -17,6 +18,7 @@
         <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/layout/fragment_p_r.xml" value="0.20416666666666666" />
         <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/layout/fragment_purchase_request.xml" value="0.20416666666666666" />
         <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/layout/fragment_s_o_items.xml" value="0.20416666666666666" />
+        <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/layout/so_items_row.xml" value="0.25" />
         <entry key="..\:/RelianceJioProjects/ListenLights/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
